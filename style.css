@@ -183,7 +183,7 @@ color: white;
   
 
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 370px) {
   .hero-body-text h3{
   font-size: 2rem;
   }
@@ -274,4 +274,176 @@ flex-direction: column;
 .About-section-left-reviews div span img{
  width: 1rem;
  
+}
+.Apartments-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Apartments-section h2{
+  font-family: "Outfit";
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  color: gray;
+}
+.Apartments-section-p{
+  padding:  0 1rem;
+}
+
+.Apartments-section-detail  {
+  padding: 2rem;
+ display: flex;
+  flex-wrap: wrap;
+ gap: 2rem;
+ justify-content: center;
+ align-items: center;
+}
+.Apartments-section-detail-img{
+  border: 1px solid  black;
+ padding: 2rem;
+
+ border-radius: 5px;
+}
+.Apartments-section-detail-img img{
+  width: 10rem;
+}
+.Apartments-section-detail-img img:hover{
+ transform: scale(1.5);
+ transition: all 0.3s ease;
+}
+.Apartments-section-detail-img button{
+  padding: .3rem;
+  background-color: #F8701B;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.Apartments-section-detail-arrow{
+   border: 2px solid black;
+   color: black;
+   border-radius: 30px;
+   padding: .5rem;
+   background-color: white;
+   align-self: self-end;
+}
+.Apartments-section-detail-arrow:hover i{
+  transform: translateX(5px);
+  transition: all 0.3s ease;
+}
+.Contacts-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.Contacts-section-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-family: "Outfit";
+  font-size: 1.3rem;
+}
+.Contacts-section-left h2{
+  font-family: "Outfit";
+  font-size: 2rem;
+ 
+  color: black;
+}
+.Contacts-section-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Contacts-section-right form{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 3px;
+  color: gray;
+  width: 20rem;
+  font-family: "Outfit";
+  margin: 1rem 0;
+}
+.Contacts-section-right form input{
+  padding: .5rem;
+
+}
+.Contacts-section-right form input:focus {
+ border: none;
+
+}
+
+.Contacts-section-right form label{
+  padding: .5rem 0;
+
+}
+.Contacts-section-right form button{
+  padding: .5rem 0;
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+  border: none;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:whitesmoke;
+  color: gray;
+ padding: 2rem 0;
+ font-family: "Playfair";
+ font-size: .9rem;
+}
+.Experience-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url(/wall.jpg);;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ 
+}
+.Experience-section h2{
+  font-family: "Outfit";
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  color: white;
+}
+.Experience{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+ 
+}
+.Experience div {
+display: flex;
+  flex-direction: column;
+  width: 14rem;
+  background-color: white;
+  border-radius: 4px;
+  padding: 2rem;
+  justify-content: center;
+
+  font-family: "Outfit";
+  color: black;
+  box-shadow: 2px 2px 5px gray;
+
+  
+}
+.Experience div i{
+  color: grey;
+  
 }
