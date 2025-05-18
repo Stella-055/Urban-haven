@@ -220,6 +220,7 @@ color: white;
   color: black;
   box-shadow: 2px 2px 5px gray;
   font-family: "playfair";
+
 }
 .About-section-h4{
   font-family: "playfair";
@@ -359,7 +360,7 @@ flex-direction: column;
 .Contacts-section-left h2{
   font-family: "Outfit";
   font-size: 2rem;
- 
+ margin-top: 1rem;
   color: black;
 }
 .Contacts-section-right{
