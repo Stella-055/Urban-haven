@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Playfair", sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -84,9 +85,9 @@ color: white;
   transition: all 0.3s ease;
 }
 .nav-components-right ul li a:hover{
-  transform: scale(2.1);
+ text-decoration: underline;
 }
-.nav-components-right ul li a.active{
+.nav-components-right ul li a:active{
  text-decoration: underline;
 }
 .nav-components-right ul li a button{
@@ -97,6 +98,9 @@ color: white;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+.nav-components-right ul li a button:hover{
+  transform: scale(1.05); 
 }
 .hero-body{
   color: white;
@@ -138,7 +142,7 @@ color: white;
   display: flex;
   flex-direction: column;
   font-family: "Outfit";  
-
+  padding: .5rem;
 }
 .hero-body-form-content div input{
   padding: 0.5rem;
@@ -157,6 +161,10 @@ color: white;
   color: gray;
   border-radius: 5px;
   margin-top: 0.5rem;
+  background-color: white;
+}
+.hero-body-form-content div select:active{
+  border: none;
 }
 .hero-body-form-content button{
   background-color: black;
@@ -326,6 +334,7 @@ flex-direction: column;
    padding: .5rem;
    background-color: white;
    align-self: self-end;
+   margin-right: 1rem;
 }
 .Apartments-section-detail-arrow:hover i{
   transform: translateX(5px);
@@ -389,6 +398,12 @@ flex-direction: column;
   color: white;
   margin-top: 1rem;
   border: none;
+  border-radius: 5px;
+}
+.Contacts-section-right form button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 footer{
   display: flex;
@@ -421,22 +436,24 @@ footer{
 }
 .Experience{
   display: flex;
-  flex-wrap: wrap;
+ 
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
   gap: 1rem;
- 
+  padding: 2rem 0;
+  flex-wrap: wrap;
 }
 .Experience div {
 display: flex;
   flex-direction: column;
   width: 14rem;
+  height: 10rem;
   background-color: white;
-  border-radius: 4px;
+  border-radius: 9px;
   padding: 2rem;
   justify-content: center;
-
+  align-items: center;
   font-family: "Outfit";
   color: black;
   box-shadow: 2px 2px 5px gray;
@@ -446,4 +463,7 @@ display: flex;
 .Experience div i{
   color: grey;
   
+}
+.Experience div p{
+  align-self: center;
 }
