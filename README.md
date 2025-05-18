@@ -1,7 +1,10 @@
 # URBAN HAVEN
 Urban haven is a landing page for a fictional company that offers  house rental services.
-The application is built with html and css only
+ The application is built with html and css only
+
+
  ![image](https://github.com/user-attachments/assets/e41d1563-cbcc-4fe1-90e3-64e5d32ed8e7)
+### check out live demo https://urban-haven-chi.vercel.app/
  
 # Getting Started
 ## Clone this repository:
