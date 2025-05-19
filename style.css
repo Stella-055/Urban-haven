@@ -14,9 +14,7 @@
   --color-secondary: #e69d02;
 }
 
-*{
-  font-family: Outfit;
-}
+
 
 .hero-bg{
   background-image: url(/heroImage.png);
@@ -422,7 +420,7 @@ footer{
   align-items: center;
   justify-content: center;
   background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  url(/wall.jpg);;
+  url(/wall.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
