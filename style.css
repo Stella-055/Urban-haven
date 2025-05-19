@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Playfair", sans-serif;
+  font-family: "Outfit", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -462,6 +462,12 @@ display: flex;
 .Experience div i{
   color: grey;
   
+}
+.Experience div h3{
+  font-family: "Outfit";
+  font-size: 1rem;
+  color: grey;
+  padding: .5rem 0;
 }
 .Experience div p{
   align-self: center;
